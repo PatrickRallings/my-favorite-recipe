@@ -1,12 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <title>Chicken Parmesan</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        background-color: rgb(179, 98, 73);
+        padding: 7px;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+      }
+      section {
+        display: -webkit-flex;
+        display: flex;
+      }
+      nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: rgb(226, 172, 172);
+        padding: 1px;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background-color: #ecd4d4;
+        padding: 10px;
+      }
+      footer {
+        background-color: rgb(179, 98, 73);
+        padding: 1px;
+        text-align: center;
+        color: white;
+      }
+      @media (max-width: 600px) {
+        section {
+          -webkit-flex-direction: column;
+          flex-direction: column;
+        }
+      }
+      .center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+      }
+      table {
+        border-style: solid;
+        color: black;
+        text-align: center;
+      }
+      td,
+      th {
+        border-style: dashed;
+        color: black;
+        border-width: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Chicken Parmesan</h1>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li class="center"><a href="index.html">Introduction</a></li>
+          <li class="center"><a href="ingredients.html">Ingredients</a></li>
+          <li class="center"><a href="directions.html">Directions</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h1 class="center">Directions</h1>
+
+        <ol>
+          <h3>Preparation:</h3>
+          <li>Preheat oven to 425°F.</li>
+          <hr />
+          <h3>Cooking Directions</h3>
+          <li>
+            Place flour in shallow dish. Place the eggs in a second dish (and
+            beat with a fork).
+          </li>
+          <li>
+            Combine Panko, Italian crumbs, grated parmesan, 2 tablespoons fresh
+            parsley, salt and pepper to taste in a third shallow dish.
+          </li>
+          <li>
+            Pound chicken breasts to ½" thick (if they're very large you can cut
+            them in half).
+          </li>
+          <li>
+            Dip chicken into flour and shake to remove any excess. Dip chicken
+            in beaten eggs & then into bread crumb mixture (press to adhere).
+          </li>
+          <li>
+            Preheat oil in a large pan. Brown chicken on each side, about 4
+            minutes per side or until golden (it does not need to cook through
+            as it will continue to cook in the oven).
+          </li>
+          <li>
+            Place 1 ½ cups of marinara sauce in the bottom of a 9x13 dish. Add
+            browned chicken. Top each piece with a couple tablespoons of
+            marinara sauce, mozzarella and parmesan.
+          </li>
+          <li>
+            Bake 20-25 minutes or until golden and bubbly and chicken reaches
+            165°F. Sprinkle with fresh herbs and serve over pasta.
+          </li>
+        </ol>
+        <hr />
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3">
+                Nutrition Facts (serving size: 1 filet)<br />Calories: 567
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td>Quantity</td>
+              <td>% of Daily Value</td>
+            </tr>
+            <tr>
+              <td>Total Fat</td>
+              <td>33.7 g</td>
+              <td>
+                <span style="font-weight: 500; color: rgba(0, 0, 0, 0.87)"
+                  >52%</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Saturated Fat</td>
+              <td>12.5 g</td>
+              <td>
+                <span style="font-weight: 500; color: rgba(0, 0, 0, 0.87)"
+                  >63%</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Cholesterol</td>
+              <td>126 mg</td>
+              <td>
+                <span style="font-weight: 500; color: rgba(0, 0, 0, 0.87)"
+                  >42%</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span style="font-weight: 500; color: rgba(0, 0, 0, 0.87)"
+                  >Sodium</span
+                >
+              </td>
+              <td>966 mg</td>
+              <td>
+                <span style="font-weight: 500; color: rgba(0, 0, 0, 0.87)"
+                  >40%</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Total Carbohydrate</td>
+              <td>17.3 g</td>
+              <td>
+                <span style="font-weight: 500; color: rgba(0, 0, 0, 0.87)"
+                  >6%</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Dietary Fiber</td>
+              <td>1.9 g</td>
+              <td>
+                <span style="font-weight: 500; color: rgba(0, 0, 0, 0.87)"
+                  >8%</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Sugars</td>
+              <td>5.1 g</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Protein</td>
+              <td>47.9 g</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+      </article>
+    </section>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
 </html>

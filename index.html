@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <title>Chicken Parmesan</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        background-color: rgb(179, 98, 73);
+        padding: 7px;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+      }
+      section {
+        display: -webkit-flex;
+        display: flex;
+      }
+      nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: rgb(226, 172, 172);
+        padding: 1px;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background-color: #ecd4d4;
+        padding: 10px;
+      }
+      footer {
+        background-color: rgb(179, 98, 73);
+        padding: 1px;
+        text-align: center;
+        color: white;
+      }
+      @media (max-width: 600px) {
+        section {
+          -webkit-flex-direction: column;
+          flex-direction: column;
+        }
+      }
+      .center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Chicken Parmesan</h1>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li class="center"><a href="index.html">Introduction</a></li>
+          <li class="center"><a href="ingredients.html">Ingredients</a></li>
+          <li class="center"><a href="directions.html">Directions</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h1 class="center">Recipe Introduction</h1>
+        <p>
+          Chicken parmeson, or chicken parmigiana, combines three of the best
+          foods one could ask for in a dish:
+          <b>breaded chicken, parmesan cheese, and tomato sauce</b>.
+        </p>
+        <hr />
+        <p>
+          It is also as versatile as it is delicious. Any recipe, including the
+          one found on this site, can easily have ingredients substituted to
+          match any budget or preference.
+        </p>
+        <hr />
+        <p>
+          But more importantly, chicken parmeson is a dish that can easily and
+          quickly be put together by even the most novice of chefs (like
+          myself).
+        </p>
+        <br />
+        <img
+          class="center"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuN8_GKLRnSonLi_OiIpRS4HOmXMVyqfDXaQ&usqp=CAU"
+          alt="Four fresh-out-of-the-oven chicken parmesan filets laid side-by-side in an oven pan"
+        />
+        <br />
+      </article>
+    </section>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
 </html>
