@@ -49,6 +49,9 @@
         padding: 1px;
         text-align: center;
         color: white;
+        border: 5px;
+        border-style: dashed;
+        border-color: bisque;
       }
       @media (max-width: 600px) {
         section {
@@ -69,6 +72,15 @@
         justify-content: center;
         font-size: 14px;
         cursor: pointer;
+      }
+      .centerImage {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        border: 5px;
+        border-style: outset;
+        border-color: coral;
       }
     </style>
   </head>
@@ -113,7 +125,7 @@
         </p>
         <br />
         <img
-          class="center"
+          class="centerImage"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuN8_GKLRnSonLi_OiIpRS4HOmXMVyqfDXaQ&usqp=CAU"
           alt="Four fresh-out-of-the-oven chicken parmesan filets laid side-by-side in an oven pan"
         />
